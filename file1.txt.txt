@@ -1,6 +1,0 @@
-pra
-las
-sha
-python
-java
-
