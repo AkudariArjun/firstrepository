@@ -1,6 +1,6 @@
 pra
-sha
-nth
 las
-yar
+sha
+python
+java
 
