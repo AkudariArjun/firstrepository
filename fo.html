@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="utf-8" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css"
+  </head>
+  <body>
+    <main>
+      <h1 id="Title">Free code camp Survey Form </h1>
+      <p id="description">Thanks for visiting this site</p>
+      <form id="survey-form">
+        <label id="name-label" for="name">Name:</label>
+        <br>
+      <input type="text" id="name" placeholder="Enter Your Name" required />
+      <br>
+      <label id="email-label" for="email">Email:</label>
+        <br>
+      <input type="email" id="email" placeholder="Enter Your email" required />
+      <br>
+       <label id="number-label" for="Age">Age:</label>
+        <br>
+      <input type="number" min="12" max="100" id="number" placeholder="Enter Your Age" required />
+      <br>
+            <label for="role">What were you Now:</label>
+            <select name="role" id="dropdown">
+                <option value="options" required></option>
+                <option value="Student">Student</option>
+                <option value="Learner">Learner</option>
+                <option value="part-time Jobber">part time Jobber</option>
+                <option value="full-time Jobber">full-time jobber</option>
+                <option value="prefer not to say">prefer not to say</option>
+                <option value="other">other</option>
+               </select>
+               <br>
+               <label>Your ratings for Freee code camp:</label>
+            <div class="rating-group">
+                <input type="radio" name="rate" id="Excelent" value="Excellent" required />
+                <label for="Excellent">Excellent</label>
+                <input type="radio" name="rate" id="Good" value="Good" required />
+                <label for="Good">Good</label>
+                <input type="radio" name="rate" id="average" value="average" required />
+                <label for="average">Average</label>
+                <input type="radio" name="rate" id="Not Good" value="Not Good" required />
+                <label for="Not good">Not Good</label>
+                <br>
+              <label for="any suggestions">Any Suggestions:
+                </label>
+<br>
+ <div class="tickbox">
+   <label for="any suggestions">You Learned:</label>
+    <br>
+  <input type="checkbox" id="HTML" value="HTML"/>
+  <label for="tickbox">html</label>
+  <input type="checkbox" id="CSS" value="CSS"/>
+  <label for="tickbox">CSS</label>
+  <input type="checkbox" id="JS" value="JS"/>
+  <label for="tickbox">JS</label>
+<br>
+<textarea id="comments" name="comment" placeholder="Description"></textarea>
+</textarea>
+<br><center><button id="submit">SUBMIT</button></center>
+
+
+
+      </form>
+      <section>
+        <h2></h2>
+      </section>
+    </main>
+  </body>
+</html>
