@@ -1,14 +1,15 @@
+** start of index.html **
+
 <!DOCTYPE html>
 <html lang="en">
   <link rel="stylesheet" href="styles.css">
   <head>
     <meta charset="utf-8" />
     <title>Survey Form</title>
-    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <main>
-      <h1 id="Title">Free code camp Survey Form </h1>
+      <h1 id="title">Free code camp Survey Form </h1>
       <p id="description">Thanks for visiting this site</p>
       <form id="survey-form">
         <label id="name-label" for="name">Name:</label>
@@ -45,23 +46,23 @@
                 <input type="radio" name="rate" id="Not Good" value="Not Good" required />
                 <label for="Not good">Not Good</label>
                 <br>
-              
+              <label for="any suggestions">Any Suggestions:
+                </label>
 <br>
  <div class="tickbox">
    <label for="any suggestions">You Learned:</label>
     <br>
   <input type="checkbox" id="HTML" value="HTML"/>
-  <label for="tickbox">html</label>
+  <label for="tickbox">html</label><br>
   <input type="checkbox" id="CSS" value="CSS"/>
-  <label for="tickbox">CSS</label>
+  <label for="tickbox">CSS</label><br>
   <input type="checkbox" id="JS" value="JS"/>
-  <label for="tickbox">JS</label>
+  <label for="tickbox">JS</label><br>
 <br>
-<label for="any suggestions">Any Suggestions:
-                </label>
 <textarea id="comments" name="comment" placeholder="Description"></textarea>
 </textarea>
-<br><center><button id="submit">SUBMIT</button></center>
+<br><center>
+<button id="submit">SUBMIT</button></center>
 
 
 
@@ -72,3 +73,28 @@
     </main>
   </body>
 </html>
+
+** end of index.html **
+
+** start of styles.css **
+
+head
+{
+}
+h1
+{
+}
+p{}
+Body
+{
+font-color:blue;
+}
+titke
+{
+
+}
+label{}
+.textarea{}
+
+** end of styles.css **
+
