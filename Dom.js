@@ -1,0 +1,10 @@
+document.title="Dom in JavaScript";
+document.getElementById("header").innerHTML = "Glory";
+document.getElementById("header").style.color = "blanchedalmond";
+document.getElementById("para").innerHTML = "Guild";
+document.body.style.backgroundColor = "skyblue";
+document.getElementById("para").style.color= "Red";
+document.getElementById("para").style.fontSize="30px";
+document.getElementsByClassName("class")[0].style.color="green";
+document.getElementsByClassName("class")[0].style.backgroundColor="beige";
+document.getElementsByClassName("class")[0].style.fontSize="30px";

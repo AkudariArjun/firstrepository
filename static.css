@@ -1,0 +1,14 @@
+ table{
+            border: 1px solid rgb(209, 176, 176);
+            
+        }
+        th,td{
+            padding: 10px;
+        }
+.txt {
+    color:rgb(63, 88, 109);
+}
+p
+{
+    font-family:'Arial Narrow';
+}
